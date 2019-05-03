@@ -1,7 +1,7 @@
 /* Globals */
 
 body {
-  background-color: #b7b2b2;
+  background: linear-gradient(purple, yellow);
   background-repeat: no-repeat;
   background-size: auto;
   margin: 0%;
@@ -19,7 +19,7 @@ h1 {
   font-family: sans-serif;
   color: black;
   text-align: center;
-  background: linear-gradient(black, gray);
+  background: linear-gradient(purple, yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -28,21 +28,21 @@ h2 {
   font-family: sans-serif;
   color: black;
   text-align: center;
-  background: linear-gradient(black, gray);
+  background: linear-gradient(purple, yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 h3 {
   font-family: sans-serif;
-  color: gray;
+  color: #45fc02;
   font-style: italic;
   font-size: 1rem;
 }
 
 p {
   font-family: sans-serif;
-  color: #444444;
+  color:#45fc02;
 }
 
 a {
@@ -61,7 +61,7 @@ li {
   flex: wrap;
   flex-direction: row;
   justify-content: center;
-  background-color: #ffffff;
+  background: linear-gradient(yellow, purple);
   width: 90%;
   margin: auto;
   padding: 5px;
@@ -114,7 +114,7 @@ li {
   align-content: center;
   margin-left: auto;
   margin-right: auto;
-  background-color:#ffffff;
+  background: linear-gradient(red, orange);
 }
 
  /* Content Columns */
