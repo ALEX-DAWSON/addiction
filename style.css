@@ -1,7 +1,7 @@
 /* Globals */
 
 body {
-  background: linear-gradient(purple, yellow);
+  background: linear-gradient(red, orange, yellow, green, blue, purple);
   background-repeat: no-repeat;
   background-size: auto;
   margin: 0%;
@@ -114,7 +114,7 @@ li {
   align-content: center;
   margin-left: auto;
   margin-right: auto;
-  background: linear-gradient(red, orange);
+  background: linear-gradient(red, orange, yellow, green, blue, purple);
 }
 
  /* Content Columns */
@@ -133,4 +133,12 @@ li {
   padding: 10px;
   border: solid 2px black;
   /*flex-direction: column;*/
+}
+
+.bonus-image {
+  height: 500px;
+  width: auto;
+  align-self: center;
+  border: solid 2px black;
+  border-radius: 3%;
 }
