@@ -68,6 +68,11 @@ li {
   align-content: center;
 }
 
+.titlebanner {
+  height: 20rem;
+  width: auto;
+}
+
 .logo {
   height: 100px;
   width: auto;
