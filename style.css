@@ -14,6 +14,22 @@ body {
 }
 /* ^^^ Do not delete!!! ^^^ */
 
+button {
+  background-color: red;
+  padding: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border: 2px solid red;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px 0px black;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  background-color: white;
+  border: 2px solid red;
+}
 
 h1 {
   font-family: sans-serif;
@@ -113,7 +129,7 @@ li {
 .wrapper {
   display: flex;
   flex: wrap;
-  flex-direction: row;
+  flex-direction: column;
   width:90%;
   height: 100%;
   align-content: center;
@@ -125,17 +141,35 @@ li {
  /* Content Columns */
 
 .column2 {
-  width: 75%;
+  width: 100%;
   order: 2;
   flex-grow: 2;
   padding: 10px;
 }
 
-.column1 {
-  width: 25%;
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
   order: 1;
   flex-grow: 1;
   padding: 10px;
-  border: solid 2px black;
-  /*flex-direction: column;*/
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+  flex-direction: row;
+}
+
+/* Art Page */
+
+.artdisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.artwork {
+  width: 75%;
+  height: auto;
+  border-radius: 1rem;
+  justify-content: center;
 }
